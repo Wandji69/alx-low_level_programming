@@ -20,7 +20,8 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 
-int last = Last_Digit(n);
+int last;
+last = Last_Digit(n);
 /* call the Last_Digit function to retun the last the number */
 if (last > 5)
 {
