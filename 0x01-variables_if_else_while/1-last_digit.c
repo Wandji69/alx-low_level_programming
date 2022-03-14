@@ -17,12 +17,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 
-/* Last_Digit takes a value num */
-int Last_Digit;
-Last_Digit = (n % 10);
-/* call the Last_Digit function to retun the last the number */
-int last;
-last = Last_Digit;
+int last = (n % 10);
 if (last > 5)
 {
 	printf("Last digit of %d is %d and is greater than 5\n", n, last);
