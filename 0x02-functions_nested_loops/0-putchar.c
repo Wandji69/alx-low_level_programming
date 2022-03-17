@@ -10,8 +10,8 @@ int main(void)
 {
 
 char text[10] = "_putchar";
-
 int i;
+
 /* For loop to print characters */
 for (i = 0; i < 8; i++)
 {
