@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * Main - Entry point
  *
  * Retrun Always 0 (Success)
@@ -12,7 +11,7 @@ char text[10] = "_putchar";
 
 int i;
 
-for (i = 0; i < 5; i++)
+for (i = 0; i < 8; i++)
 {
 _putchar(text[i]);
 }
