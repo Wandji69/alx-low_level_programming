@@ -3,15 +3,16 @@
 /**
  * main - Entry point
  *
- * Retrun Always 0 (Success)
+ * Retrun: 0 Always (Success)
  */
-/* betty style doc for function main goes there */
+
 int main(void)
 {
+
 char text[10] = "_putchar";
 
 int i;
-
+/* For loop to print characters */
 for (i = 0; i < 8; i++)
 {
 _putchar(text[i]);
