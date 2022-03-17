@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-    char text[10] = "_putchar";
+char text[10] = "_putchar";
 
-    int i;
+int i;
 
-    for (i = 0; i < 5; i++)
-    {
-        _putchar(text[i]);
-    }
-    _putchar('\n');
+for (i = 0; i < 5; i++)
+{
+_putchar(text[i]);
+}
+_putchar('\n');
 
-    return (0);
+return (0);
 }
