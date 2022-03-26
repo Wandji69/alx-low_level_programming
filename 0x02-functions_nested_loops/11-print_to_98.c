@@ -1,41 +1,40 @@
 #include <stdio.h>
-#include "main.h"
-
+#include "holberton.h"
 /**
- * function that prints all natural numbers
- * from n to 98, followed by a new line.
- * @num: Input number
- * Return Always 0 (Success)
+ * print_to_98 - a function that prints all natural numbers from n to 98
+ * user input's number prints to 98, regardless < 98 or > 98
+ * @n: number input
+ * Return: Always 0 (Success)
  */
-void print_to_98(int num)
+void print_to_98(int n)
 {
-if (num < 98)
-{
-while (num <= 98)
-{
-printf("%d", num);
-if (num != 98)
-{
-printf(", ");
-}
-num++;
-}
-}
-else if (num > 98)
-{
-while (num >= 98)
-{
-printf("%d", num);
-if (num != 98)
-{
-printf(", ");
-}
-num--;
-}
-}
-else
-{
-printf("98");
-}
-printf("\n");
+	if (n < 98)
+	{
+		while (n <= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (n >= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n--;
+		}
+	}
+	else
+	{
+		printf("98");
+	}
+	printf("\n");
 }
