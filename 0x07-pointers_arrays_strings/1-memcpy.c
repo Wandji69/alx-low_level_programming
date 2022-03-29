@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @brief function to print buffer address
+ * function to print buffer address
  * 
  * @dest: input
  * @src: input
@@ -9,6 +9,7 @@
  * 
  * Return: Always 0 (Success)
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsigned int i;
