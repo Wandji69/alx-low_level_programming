@@ -1,0 +1,1 @@
+A funtion pointer declares a pointer to a function.
