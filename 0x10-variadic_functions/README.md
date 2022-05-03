@@ -1,0 +1,1 @@
+variadic functions are functions that take a variables arguments.
